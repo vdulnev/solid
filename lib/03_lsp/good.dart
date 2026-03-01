@@ -85,3 +85,5 @@ void runGood() {
     printArea(shape); // no surprises, no broken contracts ✅
   }
 }
+
+void main() => runGood();

@@ -64,3 +64,5 @@ void runBad() {
     }
   }
 }
+
+void main() => runBad();

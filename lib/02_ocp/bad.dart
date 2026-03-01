@@ -37,3 +37,5 @@ void runBad() {
     print('  $type → discount: \$$discount (pays \$${price - discount})');
   }
 }
+
+void main() => runBad();

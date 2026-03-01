@@ -57,3 +57,5 @@ void runBad() {
   final manager = UserManager();
   manager.registerUser('alice@example.com', 'securePass123');
 }
+
+void main() => runBad();

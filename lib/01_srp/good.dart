@@ -82,3 +82,5 @@ void runGood() {
   );
   service.register('alice@example.com', 'securePass123');
 }
+
+void main() => runGood();

@@ -52,3 +52,5 @@ void runBad() {
   final service = OrderService();
   service.placeOrder('Dart Book', 'alice@example.com');
 }
+
+void main() => runBad();

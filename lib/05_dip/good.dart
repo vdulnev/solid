@@ -83,6 +83,8 @@ class OrderService {
   }
 }
 
+void main() => runGood();
+
 void runGood() {
   print('--- DIP GOOD ---');
 

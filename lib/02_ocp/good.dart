@@ -97,3 +97,5 @@ void runGood() {
     );
   }
 }
+
+void main() => runGood();

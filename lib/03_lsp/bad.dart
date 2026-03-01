@@ -62,3 +62,5 @@ void runBad() {
   print('  With Square (substituted for Rectangle):');
   printExpectedArea(Square(3)); // prints 16 ✗ — program breaks!
 }
+
+void main() => runBad();

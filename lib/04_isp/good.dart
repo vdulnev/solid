@@ -96,3 +96,5 @@ void runGood() {
   final breakManager = BreakManager([alice, bob]);
   breakManager.lunchBreak();
 }
+
+void main() => runGood();
